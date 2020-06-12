@@ -5,7 +5,7 @@ def join_nested_strings(src)
     ele_idx = 0 
     while ele_idx < src[outer_idx].length do
       if src[outer_idx][ele_idx].class == String
-        str += src[outer_idx][ele_idx]
+        str += src[outer_idx][ele_idx] + " "
       end
       ele_idx += 1 
     end
